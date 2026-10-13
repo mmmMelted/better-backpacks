@@ -1,4 +1,4 @@
-# Invisible Backpack Fix
+# Better Backpacks
 
 **Better backpacks on AI in Road to Vostok: more of them, by faction, and always lootable off the body.**
 
@@ -13,8 +13,9 @@
 
 Bosses are left alone.
 
-> **About the name:** the mod started as a fix for dead AI dropping a pile of invisible backpacks. The game fixed that
-> itself in v0.2.0.5; the mod still cleans them up on older versions and does everything above on all of them.
+> **Formerly Invisible Backpack Fix.** The mod started as a fix for dead AI dropping a pile of invisible backpacks. The
+> game fixed that itself in v0.2.0.5; the mod still cleans them up on older versions and does everything above on all
+> of them. The download keeps its old file name (`InvisibleBackpackFix.vmz`), so updating replaces the old version.
 
 ## Settings
 
