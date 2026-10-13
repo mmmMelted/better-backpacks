@@ -1,17 +1,20 @@
 # Invisible Backpack Fix
 
-**Fixes the backpack bugs on dead AI in Road to Vostok.**
+**Better backpacks on AI in Road to Vostok: more of them, by faction, and always lootable off the body.**
 
-- **No more invisible backpacks.** Bodies only drop the backpack you can actually see, not a pile of hidden ones.
-- **Backpacks have collision.** A backpack stays on the body instead of sinking into the ground, so you can always
-  loot it.
-- **Bodies settle properly.** Take the backpack and the body drops back down to the ground instead of floating.
-- **More backpacks.** About 1 in 4 AI now carry one (vanilla is 1 in 20):
+- **More backpacks.** About 1 in 4 AI now carry one (vanilla is 1 in 20), and better-equipped factions carry better
+  bags:
   - **Bandits and Nomads:** cheap bags (Duffel bags, Nomad backpacks, sometimes a Patrol backpack).
   - **Guards:** mostly Patrol and Jaeger backpacks.
   - **Military:** mostly Jaeger and Kantamus backpacks.
+- **Always lootable.** A dead AI's backpack is part of its ragdoll, so it stays on the body instead of sinking into
+  the ground when the body falls backward.
+- **Bodies settle properly.** Take the backpack and the body drops back down to the ground instead of floating.
 
 Bosses are left alone.
+
+> **About the name:** the mod started as a fix for dead AI dropping a pile of invisible backpacks. The game fixed that
+> itself in v0.2.0.5; the mod still cleans them up on older versions and does everything above on all of them.
 
 ## Settings
 
