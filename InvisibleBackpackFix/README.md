@@ -25,7 +25,7 @@ chance_percent=25.0
 
 ## Requirements
 
-- Road to Vostok Build 2 ("Nomads", v0.2.0.0).
+- Road to Vostok Build 2 ("Nomads"), v0.2.0.0 through v0.2.1.0.
 - [Metro Mod Loader](https://github.com/ametrocavich/vostok-mod-loader) v3.4.1 or newer.
 
 ## Install
@@ -40,7 +40,7 @@ Single player. Safe for existing saves. Works alongside other AI mods.
 ## Troubleshooting
 
 The log is at `%APPDATA%\Road to Vostok\logs\godot.log` (written when the game closes). Look for
-`[InvisibleBackpackFix] v1.4.0 loaded`.
+`[InvisibleBackpackFix] v1.4.1 loaded`.
 
 ## Credits
 

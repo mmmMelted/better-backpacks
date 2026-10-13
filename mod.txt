@@ -1,7 +1,7 @@
 [mod]
 name="Invisible Backpack Fix"
 id="invisible_backpack_fix"
-version="1.4.0"
+version="1.4.1"
 priority=0
 
 [autoload]

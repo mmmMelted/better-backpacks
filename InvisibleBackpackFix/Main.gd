@@ -15,7 +15,7 @@ extends Node
 ## the ground. Bosses keep vanilla behaviour.
 
 
-const VERSION := "1.4.0"
+const VERSION := "1.4.1"
 const TAG := "[InvisibleBackpackFix] "
 const CONFIG := "user://rtv_backpackfix.cfg"
 ## Backpacks each faction may spawn with (item file prefix -> weight): bandits and Nomads get low-tier ones, Guards

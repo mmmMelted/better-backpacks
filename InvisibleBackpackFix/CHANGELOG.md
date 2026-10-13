@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.4.1
+- Checked against game version 0.2.1.0: works unchanged (the AI and ragdoll code it hooks didn't change). Version bump only.
+
 ## 1.4.0
 - Bodies now settle onto the ground whenever you take their backpack, even long after they died (they used to stay
   propped up if the ragdoll had already come to rest). A body wearing a backpack keeps its ragdoll live until the
