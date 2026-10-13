@@ -1,5 +1,5 @@
 extends Node
-## Invisible Backpack Fix: dead AI no longer drop a pile of invisible backpacks, a dead AI's backpack stays on its back
+## Better Backpacks (formerly Invisible Backpack Fix): dead AI no longer drop a pile of invisible backpacks, a dead AI's backpack stays on its back
 ## without sinking into the ground, and more AI carry a backpack (tier by faction).
 ##
 ## Why: every AI carries one of each backpack model. At spawn vanilla SelectBackpack() gives 5% of AI a backpack (shows
@@ -15,8 +15,8 @@ extends Node
 ## the ground. Bosses keep vanilla behaviour.
 
 
-const VERSION := "1.4.1"
-const TAG := "[InvisibleBackpackFix] "
+const VERSION := "1.4.2"
+const TAG := "[BetterBackpacks] "
 const CONFIG := "user://rtv_backpackfix.cfg"
 ## Backpacks each faction may spawn with (item file prefix -> weight): bandits and Nomads get low-tier ones, Guards
 ## lean to mid-tier, Military to high-tier. "Backpack_Jaeger" covers all its colour variants.

@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.4.2
+- Renamed to Better Backpacks: the download is now BetterBackpacks.vmz and the loader shows "Better Backpacks". Same
+  mod id, so it replaces Invisible Backpack Fix and keeps your settings (delete the old InvisibleBackpackFix.vmz).
+
 ## 1.4.1
 - Checked against game version 0.2.1.0: works unchanged (the AI and ragdoll code it hooks didn't change). Version bump only.
 

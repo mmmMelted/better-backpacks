@@ -1,4 +1,4 @@
-"""Pack the mod into InvisibleBackpackFix.vmz (zip with mod.txt at the root) for Metro Mod Loader.
+"""Pack the mod into BetterBackpacks.vmz (zip with mod.txt at the root) for Metro Mod Loader.
 
     python build.py
 """
@@ -6,7 +6,7 @@ import pathlib
 import zipfile
 
 ROOT = pathlib.Path(__file__).parent
-OUT = ROOT / "InvisibleBackpackFix.vmz"
+OUT = ROOT / "BetterBackpacks.vmz"
 
 with zipfile.ZipFile(OUT, "w", zipfile.ZIP_DEFLATED) as z:
     z.write(ROOT / "mod.txt", "mod.txt")

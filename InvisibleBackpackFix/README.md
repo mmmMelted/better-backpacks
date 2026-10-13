@@ -15,7 +15,8 @@ Bosses are left alone.
 
 > **Formerly Invisible Backpack Fix.** The mod started as a fix for dead AI dropping a pile of invisible backpacks. The
 > game fixed that itself in v0.2.0.5; the mod still cleans them up on older versions and does everything above on all
-> of them. The download keeps its old file name (`InvisibleBackpackFix.vmz`), so updating replaces the old version.
+> of them. **Updating from Invisible Backpack Fix:** delete `InvisibleBackpackFix.vmz` from your mods folder and drop in
+> `BetterBackpacks.vmz` (if you forget, the loader keeps the newer one and hides the old). Your settings carry over.
 
 ## Settings
 
@@ -34,7 +35,7 @@ chance_percent=25.0
 
 ## Install
 
-Drop `InvisibleBackpackFix.vmz` into `Road to Vostok/mods/` and check it in the loader window.
+Drop `BetterBackpacks.vmz` into `Road to Vostok/mods/` and check it in the loader window.
 To uninstall, delete the file (or uncheck it).
 
 ## Compatibility
@@ -44,7 +45,7 @@ Single player. Safe for existing saves. Works alongside other AI mods.
 ## Troubleshooting
 
 The log is at `%APPDATA%\Road to Vostok\logs\godot.log` (written when the game closes). Look for
-`[InvisibleBackpackFix] v1.4.1 loaded`.
+`[BetterBackpacks] v1.4.2 loaded`.
 
 ## Credits
 
